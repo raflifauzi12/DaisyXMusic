@@ -10,17 +10,17 @@
 
 <h2> Features 🔥 </h2>
 
-- Thumbnail Support
-- Playlist Support
-- Current playback support
-- Showing track names when skipping
-- Zero downtime, Fully Stable
-- Deezer,Youtube & Saavn playback support
-- Settings panel
-- Control with buttons
-- Userbot auto join
-- Channel Music Play
-- Keyboard selection support for youtube play
+- Dukungan Gambar Kecil
+- Dukungan Daftar Putar
+- Dukungan pemutaran saat ini
+- Menampilkan nama trek saat melewati
+- Nol downtime, Sepenuhnya Stabil
+- Dukungan pemutaran Deezer, Youtube & Saavn
+- Panel pengaturan
+- Kontrol dengan tombol
+- Userbot otomatis bergabung
+- Putar Musik Saluran
+- Dukungan pemilihan keyboard untuk pemutaran youtube
 
 ## 🚀 Deployment
 
@@ -48,45 +48,45 @@ $ python3 -m DaisyXMusic
 ### Commands for Group 🛠
 #### For all in group
 
-- `/play <song name>` - play song you requested
-- `/play <reply to audio>` - play replied file
-- `/dplay <song name>` - play song you requested via deezer
-- `/splay <song name>` - play song you requested via jio saavn
-- `/ytplay <song name>`: Directly play song via Youtube Music
-- `/playlist` - Show now playing list
-- `/current` - Show now playing
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/deezer <song name>` - download songs you want quickly via deezer
-- `/saavn <song name>` - download songs you want quickly via saavn
-- `/video <song name>` - download videos you want quickly
+- `!play <nama lagu>` - putar lagu yang Anda minta
+- `!play <reply to audio>` - mainkan file balasan
+- `!dplay <nama lagu>` - putar lagu yang Anda minta melalui deezer
+- `!splay <nama lagu>` - putar lagu yang Anda minta melalui jio saavn
+- `!ytplay <nama lagu>`: Langsung memutar lagu melalui Youtube Music
+- `!playlist` - Tampilan sekarang daftar putar
+- `!current` - Lagu yang sedang di putar
+- `!song <nama lagu>` - unduh lagu yang Anda inginkan dengan cepat
+- `!search <query>` - cari video di youtube dengan detail
+- `!deezer <nama lagu>` - unduh lagu yang Anda inginkan dengan cepat melalui deezer
+- `!saavn <nama lagu>` - unduh lagu yang Anda inginkan dengan cepat melalui saavn
+- `!video <nama lagu>` - unduh video yang Anda inginkan dengan cepat
 
 #### Admins only.
-- `/player` - open music player settings panel
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
-- `/userbotjoin` - invite assistant to your chat
-- `/userbotleave` - remove assistant from your chat
-- `/admincache` - Refresh admin list
-- `/musicplayer [on/off]` - Enable/Disable Music Player
+- `!player` - open music player settings panel
+- `!pause` - pause song play
+- `!resume` - resume song play
+- `!skip` - play next song
+- `!end` - stop music play
+- `!userbotjoin` - invite assistant to your chat
+- `!userbotleave` - remove assistant from your chat
+- `!admincache` - Refresh admin list
+- `!musicplayer [on/off]` - Enable/Disable Music Player
 
 ### Commands for Channel Music Play 🛠
 For linked group admins only:
-- `/cplay <song name>` - play song you requested
-- `/cplay <reply to link>` - play replied youtube link
-- `/cplay <reply to audio>` - play replied file
-- `/cdplay <song name>` - play song you requested via deezer
-- `/csplay <song name>` - play song you requested via jio saavn
-- `/cplaylist` - Show now playing list
-- `/cccurrent` - Show now playing
-- `/cplayer` - open music player settings panel
-- `/cpause` - pause song play
-- `/cresume` - resume song play
-- `/cskip` - play next song
-- `/cend` - stop music play
-- `/userbotjoinchannel` - invite assistant to your chat
+- `!cplay <song name>` - play song you requested
+- `!cplay <reply to link>` - play replied youtube link
+- `!cplay <reply to audio>` - play replied file
+- `!cdplay <song name>` - play song you requested via deezer
+- `!csplay <song name>` - play song you requested via jio saavn
+- `!cplaylist` - Show now playing list
+- `!cccurrent` - Show now playing
+- `!cplayer` - open music player settings panel
+- `!cpause` - pause song play
+- `!cresume` - resume song play
+- `!cskip` - play next song
+- `!cend` - stop music play
+- `!userbotjoin` - invite assistant to your chat
 * channel is also can be used instead of c
 
 If you donlt like to play in linked channel:
@@ -97,9 +97,9 @@ If you donlt like to play in linked channel:
  5. Simply send commands in your group.
 
 ### Commands for Sudo Users ⚔️
-- `/userbotleaveall` - remove assistant from all chats
-- `/gcast <reply to message>` - globally brodcast replied message to all chats
-- `/pmpermit [on/off]` - enable/disable pmpermit message
+- `!userbotleave` - remove assistant from all chats
+- `!gcast <reply to message>` - globally brodcast replied message to all chats
+- `!pmpermit [on/off]` - enable/disable pmpermit message
 
 #### Pmpermit
 - `.a` - approove someone to pm you
