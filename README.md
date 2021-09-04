@@ -1,8 +1,8 @@
-<h1 align="centre">DAISYXMUSIC V5.0 🎵</h1>
+<h1 align="centre">FEEZ MUSIC🎵</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
-### Available on telegram as [@DaisyXbot](https://t.me/daisyxbot)
+### Available on telegram as [@FzMusicaBot](https://t.me/AnaknyaBuJuminten)
 
 <p align="center">
   <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
@@ -92,7 +92,7 @@ For linked group admins only:
 If you donlt like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add @DaisyXBot as Channel admin with full perms
+ 3. Add @FzMusicaBot as Channel admin with full perms
  4. add helper to channel
  5. Simply send commands in your group.
 
