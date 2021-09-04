@@ -220,7 +220,7 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)
     else:
-        await message.reply("No VC instances running in this chat")
+        await message.reply("Tidak ada obrolan dalam grup")
 
 
 @Client.on_message(filters.command("player") & filters.group & ~filters.edited)
@@ -241,7 +241,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply("play"))
     else:
-        await message.reply("No VC instances running in this chat")
+        await message.reply("Tidak ada obrolan dalam grup")
 
 
 @Client.on_message(
@@ -264,7 +264,7 @@ async def hfmm(_, message):
     if status == "ON" or status == "on" or status == "On":
         lel = await message.reply("`Processing...`")
         if not message.chat.id in DISABLED_GROUPS:
-            await lel.edit("Music Player Already Activated In This Chat")
+            await lel.edit("Pemutar Musik Sudah Diaktifkan Di Obrolan Ini")
             return
         DISABLED_GROUPS.remove(message.chat.id)
         await lel.edit(
@@ -275,7 +275,7 @@ async def hfmm(_, message):
         lel = await message.reply("`Processing...`")
         
         if message.chat.id in DISABLED_GROUPS:
-            await lel.edit("Music Player Already turned off In This Chat")
+            await lel.edit("Pemutar Musik Sudah dimatikan Dalam Obrolan Ini")
             return
         DISABLED_GROUPS.append(message.chat.id)
         await lel.edit(
